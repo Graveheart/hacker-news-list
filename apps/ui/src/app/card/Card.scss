@@ -1,0 +1,18 @@
+.card {
+  box-shadow: 0 0 #0000, 0 0 #0000, var(--shadow);
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 8px;
+
+  &__header {
+    background-color: #fff;
+    padding: 1.25rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    // bg-white px-4 py-5 border-b border-gray-200 sm:px-6
+  }
+  &__title {
+    line-height: 1.5rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+}

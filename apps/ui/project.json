@@ -14,8 +14,11 @@
         "main": "apps/ui/src/main.tsx",
         "polyfills": "apps/ui/src/polyfills.ts",
         "tsConfig": "apps/ui/tsconfig.app.json",
-        "assets": ["apps/ui/src/favicon.ico", "apps/ui/src/assets"],
+        "assets": ["apps/ui/src/assets"],
         "styles": ["apps/ui/src/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["apps/ui/src/assets/styles"]
+        },
         "scripts": [],
         "webpackConfig": "@nrwl/react/plugins/webpack"
       },
